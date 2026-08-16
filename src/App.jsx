@@ -25,7 +25,7 @@ export default function App() {
             <Route path="/cricket/schedule" element={<ScheduleView />} />
             <Route path="/cricket/teams" element={<TeamsView />} />
             <Route path="/cricket/series" element={<SeriesView />} />
-            <Route path="/cricket/matches-info" element={<MatchesInfoView />} />
+            <Route path="/cricket/match-info" element={<MatchesInfoView />} />
             <Route path="/football" element={<FootballView />} />
           </Routes>
         </main>
